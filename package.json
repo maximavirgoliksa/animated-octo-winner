@@ -1,0 +1,20 @@
+{
+  "name": "discord-scan-bot",
+  "version": "1.0.0",
+  "description": "Lookup/scan bot para Discord (Node.js, Express)",
+  "type": "module",
+  "main": "discord_scan_bot.js",
+  "scripts": {
+    "start": "node discord_scan_bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.18.2",
+    "cheerio": "^1.0.0-rc.12",
+    "whois": "^2.15.0",
+    "discord.js": "^14.15.3"
+  }
+}
